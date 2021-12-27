@@ -1,5 +1,7 @@
 body{
     margin: auto 0;
+    font-family: 'Courier New', Courier, monospace ;
+    font-weight: bold;
 }
 
 .zone {
@@ -22,12 +24,19 @@ body{
 }
 
 /*NAV*/
+
+/* .sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+} */
 .main-nav{
     display: flex;
     list-style:none;
     font-size: 0.7em;
     margin: 0;
 }
+
 
 @media only screen and (max-width: 600px){
     .main-nav{
@@ -56,7 +65,7 @@ a{
     justify-content: center;
     /* height:500px; */
     height: 75vh;
-
+    
 }
 
 .cover{
@@ -70,7 +79,7 @@ a{
     gap:20px;
     grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
     grid-template-rows: 1fr;
-
+    
 }
 .box > img{
     width: 100%;
@@ -81,6 +90,14 @@ a{
     background-color: #444;
     padding: 130px;
     margin: 20px;
+    border-radius: 5px;
+}
+
+.box:hover{
+    padding: 110px;
+    width: fit-content;
+    ;
+
 }
 
 footer{
