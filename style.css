@@ -59,6 +59,10 @@ a{
 
 }
 
+.cover{
+    width: 30rem;
+}
+
 
 /* GRID */
 .grid-wrapper{
